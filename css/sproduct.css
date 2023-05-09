@@ -1,0 +1,98 @@
+/* Start Product */
+.product-details {
+    padding-top: 8rem;
+    padding-bottom: var(--section-padding);
+}
+.product-details .container .home {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.product-details .container .home .product {
+    flex-basis: 45%;
+}
+@media (max-width: 991px) {
+    .product-details .container .home .product {
+        flex-basis: 100%;
+    }
+}
+.product-details .container .home .product img {
+    width: 100%;
+}
+.product-details .container .home .product .imgs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-details .container .home .product .imgs  .small-img {
+   flex-basis: 24%;
+   cursor: pointer;
+}
+.product-details .container .home .product .imgs  .small-img img {
+    width: 100%;
+}
+.product-details .container .home .details {
+    flex-basis: 45%;
+}
+@media (max-width: 991px) {
+    .product-details .container .home .details {
+        flex-basis: 100%;
+    }
+}
+.product-details .container .home .details .breadcrumb {
+    color: var(--light-color);
+    font-size: 0.9rem;
+}
+.product-details .container .home .details h2 {
+    margin: 1.2rem 0;
+    font-size: 1.4rem;
+    letter-spacing: -1px;
+}
+.product-details .container .home .details h3 {
+    font-weight: 600;
+    margin: 0 0 0.5rem 0;
+}
+.product-details .container .home .details .select {
+    display: block;
+    position: relative;
+    z-index: 90;
+    padding: 0.25rem 0.4rem;
+}
+.product-details .container .home .details .select:focus {
+    outline: none;
+}
+.product-details .container .home .details .add {
+    display: flex;
+    gap: 0.8rem;
+    margin: 1rem 0;
+}
+.product-details .container .home .details .add .input {
+    width: 3rem;
+    text-align: center;
+}
+.product-details .container .home .details .add .input:focus {
+    outline: none;
+}
+.product-details .container .home .details .add .btn {
+    background-color: var(--coral-color);
+    transition: var(--transition);
+}
+.product-details .container .home .details .add .btn:hover {
+    background-color: var(--dark-color);
+}
+.product-details .container .home .details .text h5 {
+    margin: 2rem 0 1rem;
+}
+.product-details .container .home .details .text p {
+    font-size: 0.9rem;
+}
+.product-details .container .related {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    text-align: center;
+}
+.product-details .container .related .related-products {
+    margin-top: 3.5rem;
+}
+/* End Product */

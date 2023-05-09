@@ -1,0 +1,173 @@
+
+/* Start Home Section */
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/back.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.home .container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.home .container h5 {
+    text-transform: uppercase;
+}
+.home .container h1 span {
+    color: var(--coral-color);
+}
+.home .container p {
+    color: var(--dark-color);
+    margin-bottom: 0.8rem;
+}
+/* End Home Section */
+/* Start Brand Section */
+.brand {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    text-align: center;
+}
+
+/* End Brand Section */
+/* Start New Section */
+.new {
+    padding-bottom: var(--section-padding);
+    width: 100%;
+}
+.new .row {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.new .row .img-new img {
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.new .row .img-new {
+    flex-basis: 33.3%;
+    padding: 0;
+    position: relative;
+}
+@media (max-width: 991px) {
+    .new .row .img-new {
+        flex-basis: 100%;
+    }
+}
+.new .row .img-new .info {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transition: var(--transition);
+}
+.new .row .img-new:hover .info {
+    cursor: pointer;
+    background-color: rgba(245, 178, 178, 0.7);
+}
+.new .row .img-new .info .btn {
+    font-size: 500;
+    font-size: 0.875rem;
+    padding: 0.156rem;
+    color: var(--dark-color);
+    border-bottom: 1px solid var(--dark-color);
+    background-color: transparent;
+    margin-top: 4rem;
+    transition: var(--transition);
+}
+.new .row .img-new .info h2 {
+    font-size: 1.4rem;
+    color: var(--dark-color);
+}
+.new .row .img-new .info .btn:hover {
+    color: var(--white-color);
+    border-bottom-color: var(--white-color);
+}
+.new .row .left .info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+.new .row .middle .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.new .row .right .info {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-right: 1rem;
+}
+/* End New Section */
+/* Start Features Section */
+.features {
+    text-align: center;
+    padding-bottom: var(--section-padding);
+}
+
+/* End Features Section */
+/* Start Banner Section */
+.banner {
+    width: 100%;
+    height: 60vh;
+    background-image: url("../img/banner/2.jpg");
+    background-size: cover;
+    background-position: top 70px center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.banner .container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--white-color);
+}
+.banner .container h4 {
+    text-transform: uppercase;
+    color: var(--light-color);
+}
+.banner .container h2 {
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+.banner .container .btn {
+    background-color: var(--coral-color);
+}
+/* End Banner Section */
+/* Start Clothes Section */
+.clothes {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    text-align: center;
+}
+/* End Clothes Section */
+/* Start Watches Section */
+.watches {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    text-align: center;
+}
+/* End Watches Section */
+/* Start Shoes Section*/
+.shoes {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    text-align: center;
+}
+#car {
+    color: var(--dark-color) !important;
+}
+/* End Shoes Section */
