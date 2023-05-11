@@ -7,7 +7,6 @@ menu.addEventListener("click", () => {
 });
 
 let cart = document.getElementById("car");
-
 cart.onclick = function () {
     window.location.href = "cart.html";
 }

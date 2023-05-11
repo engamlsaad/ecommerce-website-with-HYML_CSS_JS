@@ -20,3 +20,11 @@ for (let i = 0; i < 4; i++) {
         mainImg.src = smallImg[i].src;
     }
 }
+
+let menu = document.querySelector(".menu");
+let nav = document.querySelector(".navbar-links");
+
+menu.addEventListener("click", () => {
+    menu.classList.toggle("change");
+    nav.classList.toggle("switch");
+});

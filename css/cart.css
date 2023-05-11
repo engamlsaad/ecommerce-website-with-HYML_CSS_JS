@@ -134,4 +134,7 @@
     justify-content: flex-end;
     align-items: center;
  }
+ .car {
+    color: var(--coral-color);
+ }
 /* End Cart Page */
